@@ -27,7 +27,15 @@ Started using Iltimaker Cura. Downloaded from https://ultimaker.com/software/ult
 
 ### 4.1 Installation in Kali Linux
 Almost a nightmare, but Gemini helped a lot. The answers were not easy to find so I gave up and trusted AI.
-
+```
+└─$ ./UltiMaker-Cura-5.11.0-linux-X64.AppImage
+UM/Settings/SettingFunction.py:244: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  def visit_Str(self, node: ast.Str) -> None:
+qt.glx: qglx_findConfig: Failed to finding matching FBConfig for QSurfaceFormat(version 4.1, options QFlags<QSurfaceFormat::FormatOption>(), depthBufferSize -1, redBufferSize 1, greenBufferSize 1, blueBufferSize 1, alphaBufferSize -1, stencilBufferSize -1, samples -1, swapBehavior QSurfaceFormat::SingleBuffer, swapInterval 1, colorSpace QColorSpace(), profile  QSurfaceFormat::CoreProfile)
+qt.glx: qglx_findConfig: Failed to finding matching FBConfig for QSurfaceFormat(version 4.1, options QFlags<QSurfaceFormat::FormatOption>(), depthBufferSize -1, redBufferSize 1, greenBufferSize 1, blueBufferSize 1, alphaBufferSize -1, stencilBufferSize -1, samples -1, swapBehavior QSurfaceFormat::SingleBuffer, swapInterval 1, colorSpace QColorSpace(), profile  QSurfaceFormat::CoreProfile)
+Could not initialize GLX
+zsh: IOT instruction (core dumped)  ./UltiMaker-Cura-5.11.0-linux-X64.AppImage
+```
 
 ### 4.2 Usage
 The designs are stored online https://digitalfactory.ultimaker.com. Not a simple environment, but maybe I need to learn.
